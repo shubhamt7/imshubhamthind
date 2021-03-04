@@ -1,0 +1,21 @@
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color: darkslategrey;
+    background-color: #05396B;
+}
+html{
+    font-size: 62.5%;
+    word-break: keep-all;
+}
+
+.is-active{
+    font-weight: bold;
+    color: blueviolet;
+}
+
+@media(max-width:770px){
+    html{
+        word-break: keep-all;
+    }
+}

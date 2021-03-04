@@ -1,0 +1,46 @@
+{
+  "name": "newshubhamthind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "predeploy":"npm run build",
+    "dev": "parcel static/index.html",
+    "start": "nodemon server.js",
+    "build": "parcel build static/index.html --public-url= '/static'"
+  },
+  "staticFiles": {
+    "staticPath": "static",
+    "watcherGlob": "**"
+  },
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage":"https://shubhamt7.github.io/mywebsite",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-brands-svg-icons": "^5.15.2",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "css-loader": "^5.1.1",
+    "express": "^4.17.1",
+    "file-loader": "^6.2.0",
+    "gh-pages": "^3.1.0",
+    "node-sass": "^5.0.0",
+    "normalize.css": "^8.0.1",
+    "parcel": "^1.12.4",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.12.3",
+    "parcel-plugin-static-files-copy": "^2.5.1"
+  }
+}
