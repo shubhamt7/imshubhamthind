@@ -6,7 +6,7 @@
   "scripts": {
     "predeploy":"npm run build",
     "dev": "parcel static/index.html",
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "build": "parcel build static/index.html --public-url= '/static'"
   },
   "staticFiles": {
