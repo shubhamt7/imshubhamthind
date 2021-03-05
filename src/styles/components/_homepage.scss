@@ -119,10 +119,7 @@
         padding:0;
     }
 
-    #myImageContainer{
-        margin-left: -20px;
-    }
-    
+   
     .sec2{
         padding:10rem 0 5rem 0;
     }
@@ -143,6 +140,13 @@
 }
 
 @media(min-width: 1000px){
+
+    #myImageContainer{
+        width: 80%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
     .homepage__intro__firstline{
         animation: typing 5s steps(42);
         overflow: hidden;

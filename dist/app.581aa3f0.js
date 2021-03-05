@@ -29852,7 +29852,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"/home/shubham/Desktop/newshubhamthind/public/images/homepage-background.jpg":[["homepage-background.c391ad4b.jpg","images/homepage-background.jpg"],"images/homepage-background.jpg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/@fortawesome/fontawesome-svg-core/index.es.js":[function(require,module,exports) {
+},{"/home/shubham/Desktop/newshubhamthind/static/images/homepage-background.jpg":[["homepage-background.c391ad4b.jpg","images/homepage-background.jpg"],"images/homepage-background.jpg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/@fortawesome/fontawesome-svg-core/index.es.js":[function(require,module,exports) {
 var global = arguments[3];
 "use strict";
 
@@ -47152,9 +47152,9 @@ var _freeSolidSvgIcons = require("@fortawesome/free-solid-svg-icons");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var myImage = require('../../public/images/shubham_thind.jpg');
+var myImage = require('../../static/images/shubham_thind.jpg');
 
-var backgroundImage = require('../../public/images/homepage-background.jpg');
+var backgroundImage = require('../../static/images/homepage-background.jpg');
 
 var HomePage = function HomePage() {
   return _react.default.createElement("div", {
@@ -47215,7 +47215,7 @@ var HomePage = function HomePage() {
 
 var _default = HomePage;
 exports.default = _default;
-},{"react":"../node_modules/react/index.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js","@fortawesome/react-fontawesome":"../node_modules/@fortawesome/react-fontawesome/index.es.js","@fortawesome/free-brands-svg-icons":"../node_modules/@fortawesome/free-brands-svg-icons/index.es.js","@fortawesome/free-solid-svg-icons":"../node_modules/@fortawesome/free-solid-svg-icons/index.es.js","../../public/images/shubham_thind.jpg":"images/shubham_thind.jpg","../../public/images/homepage-background.jpg":"images/homepage-background.jpg"}],"../src/components/Header.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js","@fortawesome/react-fontawesome":"../node_modules/@fortawesome/react-fontawesome/index.es.js","@fortawesome/free-brands-svg-icons":"../node_modules/@fortawesome/free-brands-svg-icons/index.es.js","@fortawesome/free-solid-svg-icons":"../node_modules/@fortawesome/free-solid-svg-icons/index.es.js","../../static/images/shubham_thind.jpg":"images/shubham_thind.jpg","../../static/images/homepage-background.jpg":"images/homepage-background.jpg"}],"../src/components/Header.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -47682,7 +47682,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "43923" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "39563" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
