@@ -3,8 +3,8 @@ import {Link} from 'react-router-dom'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faGithub, faLinkedin, faEvernote} from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope, faHeart } from '@fortawesome/free-solid-svg-icons'
-const myImage = require('../../static/images/shubham_thind.png');
-const backgroundImage = require('../../static/images/homepage-background.jpg');
+const myImage = require('../static/images/shubham_thind.jpg');
+const backgroundImage = require('../static/images/homepage-background.jpg');
 
 
 const HomePage= ()=>(
