@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/imshubhamthind/static/css/main.3aec4cbf.css",
+    "main.js": "/imshubhamthind/static/js/main.03bb50e4.js",
+    "static/media/shubham_thind.jpg": "/imshubhamthind/static/media/shubham_thind.cabf52cd713b02ec2e53.jpg",
+    "static/media/homepage-background.jpg": "/imshubhamthind/static/media/homepage-background.734e5b41a5ada8e36e75.jpg",
+    "index.html": "/imshubhamthind/index.html",
+    "main.3aec4cbf.css.map": "/imshubhamthind/static/css/main.3aec4cbf.css.map",
+    "main.03bb50e4.js.map": "/imshubhamthind/static/js/main.03bb50e4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3aec4cbf.css",
+    "static/js/main.03bb50e4.js"
+  ]
+}
