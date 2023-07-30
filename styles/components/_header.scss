@@ -1,0 +1,107 @@
+.header{
+    width:100%;
+    padding: 2rem 0;
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Stick', sans-serif;
+}
+.header__content{
+    width:50%;
+    margin:0 auto;
+    text-align: center;
+    color: $white;
+}
+
+.navbar{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:0 auto;
+}
+.navbtn{
+    background: rgb(65, 103, 207);
+    border:none;
+    color: white;
+    padding:.8rem 2.5rem;
+    margin: 0.5rem 1rem;
+    font-size:1.6rem;
+    border-radius:.5rem;
+    text-decoration: none;
+    outline:none;
+}
+
+.navbtn:hover{
+    background-color: lighten(#053969,10%);
+    cursor: pointer;
+}
+
+.navbtn-active{
+    background: lighten(yellow, 20%);
+    color: black;
+}
+
+.header__title{
+    text-transform: uppercase;
+}
+.header__subtitle{
+    padding:0;
+}
+
+
+@keyframes blinkingText{
+    0%{     color: red; }
+    49%{    color: red; }
+    60%{    color: transparent; }
+    99%{    color: red; }
+    100%{   color: red; }
+}
+.heart_icon{
+    color:transparent;
+    animation:blinkingText 1.0s infinite;
+}
+
+.resume__link{
+    color: white;
+    text-decoration: none;
+    border:none;
+}
+a{
+    color:white;
+}
+a:hover{
+    color: skyblue;
+}
+
+
+@media(max-width: 770px){
+    .header{
+        word-break: keep-all;
+    }
+    .header__content{
+        width:95%;
+        display: flex;
+        flex-direction: column;
+    }
+    .header__title{
+        text-transform: uppercase;
+        font-size: 3rem;
+    }
+    .navbar{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin:0 auto;
+    }
+    .navbtn{
+        border:none;
+        padding:.4rem 0.8rem;
+        margin:0.5rem 0.4rem;
+        font-size:1.6rem;
+        border-radius:.5rem;
+        text-decoration: none;
+        outline:none;
+    }
+
+}
